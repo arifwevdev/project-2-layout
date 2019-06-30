@@ -1,0 +1,529 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.main{
+    max-width: 1140px;
+    height:auto;
+    margin: 0 auto;
+}
+
+nav
+{
+
+    width: 33%
+    height:100px;
+    background-color: white;
+}
+
+nav ul{
+
+    float: left;
+    margin-left: 30%;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    line-height: 100px;
+    color: black;
+    padding: 35px 10px;
+    letter-spacing: 0.5px;
+    border:1px solid transparent;
+    transition: 0.6s ease;
+
+}
+nav ul li:hover a{
+    color: white;
+    background-color: orangered;
+    
+}
+
+.logo {
+    float: left;
+
+
+}
+
+.logo img{
+
+    height: 60px;
+    margin: 20px
+}
+
+.social{
+
+    float: right;
+   
+
+     
+
+}
+
+.social ul{
+
+    float: right;
+}
+
+.social ul li{
+
+    display: inline-block;
+    list-style-type: none;
+}
+.social i{
+    font-size:23px;
+    letter-spacing: 0.5px;
+    border:1px solid transparent;
+    transition: 0.6s ease;
+    line-height: ;
+    padding: ;
+    margin-top: 80%;
+   
+    padding: 0px 10px;
+
+
+
+}
+.social ul li :hover i
+{
+    color: orange;
+    
+    height: 100%
+    
+}
+
+.slider{
+    float: left;
+    width: 100%;
+    height:500px;
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.slider-text{
+    margin-top:100px;
+    text-align: center;
+    width: 50%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.slider-content{
+
+    padding: 35px;
+
+}
+.slider-content h1{
+font-size: 30px;
+padding:20px;
+color: #ff4500;
+
+
+}
+.slider-content p{
+color: white;
+
+}
+
+.btn{
+
+   color: white;
+    background-color: orangered;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+    margin:20px;
+    line-height: 26px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    transition: 0.6s ease;
+    border-radius: 5px;
+    
+}
+
+.btn:hover{
+    color: orangered;
+    background-color: white;
+}
+.all-about{
+
+margin-top: 80px;
+clear: both;
+float: left;
+margin-bottom: 80px;
+}
+
+.about-items{
+width: 20%;
+display: inline-block;
+text-align: center;
+margin-left: 46px;
+
+
+}
+.ic{
+
+    font-size: 30px;
+    margin: 10px;
+    color: #ff4500;
+}
+
+.readmore{
+    font-size: 12px;
+    color: white;
+    background-color: orangered;
+    padding: 5px    10px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+    margin:20px;
+    line-height: 26px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    transition: 0.6s ease;
+    
+    border-radius: 5px;
+}
+
+.readmore:hover{
+
+    color: orangered;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+
+
+.cd{
+width: 100%;
+    background-color: #dcdcdc;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    clear: both;
+    padding: 72px 0px 72px 0px;
+
+}
+
+.about-txt{
+
+    background-color: white;
+    margin-top: px;
+    width: 45%;
+    float: left;
+    margin-left: 50px;
+    
+
+}
+
+.about-one{
+
+margin: 20px;
+
+
+    height: auto;
+    float: left;
+    
+
+}
+
+.about-two{
+
+    margin: 20px;
+ 
+    float: left;
+    
+
+}
+
+.about-txt ul{
+    
+   
+}
+
+.about-txt li{
+list-style-type: disc;
+clear: both;
+margin-left: 20%;
+
+}
+.about-txt h3{
+text-align: center;
+color: 
+
+}
+.about-txt a {
+    display: inline-block;
+    text-decoration: none;
+    background-color:#ff4500;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px 20px;
+     transition: 0.6s ease;
+
+
+}
+
+.about-txt a:hover{
+
+    color: orangered;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.WHo{
+
+
+     background-color: white;
+    margin-top: 20px;
+    width: 45%;
+    float: left;
+    margin-left: 50px;
+    
+}
+
+.EF{
+
+width: 100%;
+height: auto;
+
+
+
+
+}
+ h2{
+
+    padding-top: 30px;
+    font-size: 25px;
+    color: #ff4500;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+    letter-spacing: 0.5px;
+    
+}
+.EF h5{
+
+color: orange;
+font-size: 18px;
+letter-spacing: 0.5px;
+
+}
+
+.EF p{
+
+font-size:15px;
+letter-spacing: 0.5px;
+
+}
+
+.who-one{
+
+margin: 20px;
+display: inline-block;
+
+    height: auto;
+    float: left;
+    margin-bottom: 80px;
+
+}
+
+.who-two{
+
+
+    margin: 20px;
+    display: inline-block;
+    float: left;
+       height: auto;
+
+        margin-bottom: 80px;
+
+
+}
+
+.WHo a{
+
+    
+    text-decoration: none;
+    color: white;
+    background-color: #ff4500;
+    letter-spacing: 0.5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.6s ease;
+ 
+}
+
+.WHo a:hover{
+
+    color:  #ff4500;
+    background-color: white;
+    border: 1px solid gray;
+
+
+}
+
+.Goal{
+
+width: 100%;
+height: auto;
+
+width: 100%;
+    background-color: #dcdcdc;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    clear: both;
+    padding: 72px 0px 72px 0px;
+
+
+}
+
+.Goal h3{
+
+text-align: center;
+
+}
+
+
+
+.tp {
+
+width: 100%;
+height: auto;
+
+}
+
+.tp-text{
+    text-align: center;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    padding-bottom: 45px;
+    padding-top: 30px;
+
+}
+
+.tp-text h3{
+
+color: 
+padding-top: 50px;
+margin-top: 50px;
+font-size:30px;
+
+
+
+}
+
+
+
+.tp-text i{
+color: green;
+}
+
+
+
+.partners{
+
+    background-color: gray;
+    width: 100%;
+    background-color: gray;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    clear: both;
+    padding: 72px 0px 72px 0px;
+}
+
+.p-content{
+
+    width: 100%;
+
+
+}
+.pc-one{
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    width: 20%;
+    float: left;
+    padding: 20px;
+    margin-left: 15px;
+}
+
+.p-title{
+
+    text-align: center;
+
+
+
+}
+
+.p-title p{
+
+    font-size: 30px;
+   color: white;
+   padding: 25px;
+
+
+}
+
+
+.footer{
+
+     background-color: darkred;
+        width: 100%;
+   
+    background-size: cover;
+    background-position: center;
+    float: left;
+    clear: both;
+    padding: 72px 0px 72px 0px;
+}
+
+
+.f-all{
+
+margin: 50px;
+  
+    height: auto;
+
+
+}
+
+.allf{
+
+    width: 40%;
+    padding: 20px;
+    float: left;
+    color: white;
+
+}
+
+.contact{
+
+    margin-left: 50px;
+}
+
+
+
+
