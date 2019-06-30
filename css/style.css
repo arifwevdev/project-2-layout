@@ -6,7 +6,7 @@
 }
 
 .container {
-    background-image: url("../images/1.jpg");
+    background: url(../images/1.jpg);
     width: 100%;
     height: auto;
     background-color: white;
@@ -21,7 +21,7 @@
 nav
 {
 
-    width: 33%
+    width: 33%;
     height:100px;
     background-color: white;
 }
